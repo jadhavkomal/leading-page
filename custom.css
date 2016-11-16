@@ -8,11 +8,9 @@
       font-size:15px;
       margin-left: 20px;
      }
-     .navbar-default .navbar-brand.brand-name:hover
-     {
+     .navbar-default .navbar-brand.brand-name:hover{
          color:#333;
      }
-     
      .navbar-default .navbar-nav>li>a{
          color:#777;
      }
@@ -23,19 +21,19 @@
          position:fixed;
      }
      .banner{
-    
-    background: url('img/intro-bg.jpg');
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    color: #f8f8f8;
-    background-size:cover;
-    }
+         background: url('img/intro-bg.jpg');
+         display: flex;
+         align-items: center;
+         height:100vh;
+         padding-bottom: 50px;
+         text-align: center;
+         color: #f8f8f8;
+         background-size:cover;
+      }
     .container
     {
- 
-    padding-top: 30px;
-    padding-bottom:30px;
+         padding-top: 30px;
+         padding-bottom:30px;
     }
     .container h1{
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
@@ -56,7 +54,6 @@
         border-top: 1px solid #f8f8f8;
         border-bottom: 1px solid rgba(0,0,0,0.2)
     }
-    
     .km-btn {
        font-size:18px;
        font-weight: 100;
@@ -69,49 +66,124 @@
        border-radius: 6px;
        margin-bottom: 10px;
        text-transform: uppercase;
+       margin: 8px;
       }
       .section{
          background-size:cover;
          width:100%;
-  
          background:#f8f8f8;
-         
       }
       .box1{
           width: 40%;
           margin-left:80px;
           padding: 50px;
-          
-        }
+       }
         .box1 h2{
                 margin-bottom: 30px;
                 font-size: 30px;
                 font-family: Airal;
         }
-        .box1 p
-        {
+        .box1 p{
                 margin: 0 0 10px;
                 margin-bottom: 20px;
                 line-height:1.4;
                 font-size: 18px;
                 font-weight: 400;
         }
-        .box1 a
-        {
+        .box1 a{
             text-color:#337ab7;
-            background-color:transparent;
-            text-decoration: none;
-        }
+            background-color:transparent
+         }
+         .box1 hr{
+           margin-top: 2px;
+           margin-bottom: 20px;     
+           margin-left: 20px;
+           width: 200px;
+           border-top: 3px solid #e7e7e7
+         }
         .box2{
-         
-          margin-left:20px;
-          padding: 50px;
-          background: red;
+            margin-left:80px;
+            padding: 50px;
         }
         .section-img{
-            width: 100%;
-             height:400px;
+          max-width:100%;
+          height:350px;
         }
+        .box3
+        {
+           width: 40%;
+          margin-left:80px;
+          padding: 50px;   
+        }
+        .box4{
+            margin-left:80px;
+            padding: 50px;
+        }
+           .box4 hr{
+           margin-top: 2px;
+           margin-bottom: 20px;     
+           margin-left: 20px;
+           width: 200px;
+           border-top: 3px solid #e7e7e7
+           }
+        .box4 h2{
+            margin-bottom: 30px;
+            font-size: 30px;
+            font-family: Airal;
+        }
+        .box4 p{
+            margin: 0 0 10px;
+            margin-bottom: 20px;
+            line-height:1.4;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .box a{
+            text-color:#337ab7;
+            background-color:transparent;
+         }
+         .section2{
+            background-size:cover;
+             width:100%;
+             border-top: 1px solid #e7e7e7;
+             border-bottom: 1px solid #e7e7e7;
+         }
+         .section3{
+           background: url('img/banner-bg.jpg');  
+           width:100%;
+           color: #f8f8f8;
+           background-size:cover;
+           padding:75px;
+         }
+         .block h2{
+             margin-left:20px;
+             padding-top: 20px;
+            text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+            font-size:3em;
+         }
+         .block1{
+        display: inline-block;
+        padding-top: 38px;
+      }
+      .footer{
+        padding: 50px 0;
+        background-color: #f8f8f8; 
+        margin-left: 40px;
+      }
+      .menu a{
+        margin:20px;
+        text-decoration: none;
+         list-style: dot;
+       }
+      .menu  a:hover{
+          color: #23527c;
+      }
+      .menu p{
+          margin-left: 20px;
+          margin-top: 15px;
+      }
+        
+      
 
         
      
