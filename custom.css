@@ -4,186 +4,91 @@
     border-radius: 0;
     }
    .navbar-default .navbar-brand.brand-name {
-      color:#777;
-      font-size:15px;
-      margin-left: 20px;
+    color:#777;
+    font-size:15px;
+    margin-left: 20px;
      }
-     .navbar-default .navbar-brand.brand-name:hover{
-         color:#333;
+   .navbar-default .navbar-nav>li>a{
+       font-size: 14px;
+       color:#777;
      }
-     .navbar-default .navbar-nav>li>a{
-         color:#777;
+   .navbar-default .navbar-nav>li>a:hover{
+    color:#333;
      }
-     .navbar-default .navbar-nav>li>a:hover{
-         color:#333;
+   .main-header{
+    position:fixed;
      }
-     .main-header{
-         position:fixed;
-     }
-     .banner{
-         background: url('img/intro-bg.jpg');
-         display: flex;
-         align-items: center;
-         height:100vh;
-         padding-bottom: 50px;
-         text-align: center;
-         color: #f8f8f8;
-         background-size:cover;
+    .banner{
+    background: url('img/intro-bg.jpg') no-repeat center center;;
+    display: flex;
+    align-items: center;
+    height:100vh;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background-size:cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+   }
+    .btn{
+    margin-right: 15px;
       }
-    .container
-    {
-         padding-top: 30px;
-         padding-bottom:30px;
-    }
-    .container h1{
+    .km-spacer{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left:6px;
+    width: 200px;
+    border-top: 3px solid #e7e7e7
+      }
+    .km-img{
+    padding-top:40px;
+    padding-bottom: 40px;
+      }
+    .container h1 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
     font-family:Arial;
     }
     .container h3{
-        font-family:Arial;
-        font-size: 24px;
-        text-shadow:2px 2px 3px rgba(0,0,0,0.6);
-        margin-top: 20px;
-        margin-bottom: 10px;
-        font-weight: 650;
+    font-family:Arial;
+    font-size: 24px;
+    text-shadow:2px 2px 3px rgba(0,0,0,0.6);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
     }
-    .divider
-    {
-        width:400px;
-        border-top: 1px solid #f8f8f8;
-        border-bottom: 1px solid rgba(0,0,0,0.2)
+   .km-font{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+     }
+    .km-font1{
+    font-family:airal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size:18px;
     }
-    .km-btn {
-       font-size:18px;
-       font-weight: 100;
-       background:#fff;;
-       padding:10px;
-       letter-spacing:2px;
-       color:black;
-       padding: 10px 16px;
-       line-height: 1.3333333;
-       border-radius: 6px;
-       margin-bottom: 10px;
-       text-transform: uppercase;
-       margin: 8px;
-      }
-      .section{
-         background-size:cover;
-         width:100%;
-         background:#f8f8f8;
-      }
-      .box1{
-          width: 40%;
-          margin-left:80px;
-          padding: 50px;
-       }
-        .box1 h2{
-                margin-bottom: 30px;
-                font-size: 30px;
-                font-family: Airal;
-        }
-        .box1 p{
-                margin: 0 0 10px;
-                margin-bottom: 20px;
-                line-height:1.4;
-                font-size: 18px;
-                font-weight: 400;
-        }
-        .box1 a{
-            text-color:#337ab7;
-            background-color:transparent
+    .divider{
+    width:400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2)
+    }
+    .box1{
+    background:#f8f8f8;
+    }
+    .section3{
+    background: url('img/banner-bg.jpg');  
+    width:100%;
+    color: #f8f8f8;
+    background-size:cover;
+    padding:75px;
          }
-         .box1 hr{
-           margin-top: 2px;
-           margin-bottom: 20px;     
-           margin-left: 20px;
-           width: 200px;
-           border-top: 3px solid #e7e7e7
+    .social-btn{
+    margin-top: 20px;
          }
-        .box2{
-            margin-left:80px;
-            padding: 50px;
-        }
-        .section-img{
-          max-width:100%;
-          height:350px;
-        }
-        .box3
-        {
-           width: 40%;
-          margin-left:80px;
-          padding: 50px;   
-        }
-        .box4{
-            margin-left:80px;
-            padding: 50px;
-        }
-           .box4 hr{
-           margin-top: 2px;
-           margin-bottom: 20px;     
-           margin-left: 20px;
-           width: 200px;
-           border-top: 3px solid #e7e7e7
-           }
-        .box4 h2{
-            margin-bottom: 30px;
-            font-size: 30px;
-            font-family: Airal;
-        }
-        .box4 p{
-            margin: 0 0 10px;
-            margin-bottom: 20px;
-            line-height:1.4;
-            font-size: 18px;
-            font-weight: 400;
-        }
-        .box a{
-            text-color:#337ab7;
-            background-color:transparent;
-         }
-         .section2{
-            background-size:cover;
-             width:100%;
-             border-top: 1px solid #e7e7e7;
-             border-bottom: 1px solid #e7e7e7;
-         }
-         .section3{
-           background: url('img/banner-bg.jpg');  
-           width:100%;
-           color: #f8f8f8;
-           background-size:cover;
-           padding:75px;
-         }
-         .block h2{
-             margin-left:20px;
-             padding-top: 20px;
-            text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-            font-size:3em;
-         }
-         .block1{
-        display: inline-block;
-        padding-top: 38px;
+    .km-box{
+    padding:50px 0;
+    background-color: #f8f8f8;
       }
-      .footer{
-        padding: 50px 0;
-        background-color: #f8f8f8; 
-        margin-left: 40px;
-      }
-      .menu a{
-        margin:20px;
-        text-decoration: none;
-         list-style: dot;
-       }
-      .menu  a:hover{
-          color: #23527c;
-      }
-      .menu p{
-          margin-left: 20px;
-          margin-top: 15px;
-      }
-        
-      
-
-        
      

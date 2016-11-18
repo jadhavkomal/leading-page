@@ -9,6 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="custom.css" rel="stylesheet">
 
@@ -21,101 +23,140 @@
   </head>
   <body>
   <div class="main">  
-    <nav class="navbar navbar-default  navbar-fixed-top header-nav">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header logo">
-        
+     <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container text-capitalize">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Start bootsrtap</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">about </a></li>
+                        <li><a href="#">service</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-          <a href="#" class="navbar-brand brand-name">Start BootStrap </a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right brand-bar">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-     </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
     <div class="banner">
-        <div class="container km-head">
+        <div class="container">
             <h1>Landing Page</h1>
+            
             <h3>A Template by start Bootstrap</h3>
             <hr class="divider"/>
-          
-            <div class="social-btn text-center">
-                <a href="#"> <div class="btn-button fa fa-twitter km-btn" aria-hidden="true">Twitter</div></a>
-                <a href="#"> <div class="btn-git fa fa-github km-btn" aria-hidden="true">Github</div></a>
-                <a href="#"> <div class="btn-git fa fa-linkedin km-btn" aria-hidden="true">linked</div></a>
-                
-            </div>
+             
+            <ul class="list-inline text-uppercase">
+                <li><a href="#" class="btn btn-default banner-btns"> <i class="fa fa-twitter " ></i>twitter</a></li>
+                <li><a href="#" class="btn btn-default banner-btns"> <i class="fa fa-github" ></i>twitter</a></li>
+                <li><a href="#" class="btn btn-default banner-btns"> <i class="fa fa-linkedin"></i>twitter</a></li>
+            </ul>
+        </div>                
         </div>
-    </div>
-    <div class="container section ">
+
+ 
+      
+    <section>
+         <div class="box1">
+        <div class="container">
         
-        <div class="row">
-            <div class="col-sm-4 box1">
-                <hr>
-                <h2>Death to the Stock Photo:<br>Special Thanks</h2>
-                <p>A special thanks to <a href="#">Death to the Stock Photo</a>for providing the photographs that you see in this template. 
+        <div class="row km-img">
+            <div class="col-sm-6">
+                <hr class="km-spacer">
+                <h2 class="km-font">Death to the Stock Photo:<br>Special Thanks</h2>
+                <br>
+                <p class="km-font1">A special thanks to <a href="#">Death to the Stock Photo</a>for providing the photographs that you see in this template. 
                     Visit their website to become a member.</p>  
             </div>
-            <div class="col-sm-offset-3 col-sm-5 box2">
-                <img src="img/ipad.png" class="section-img">
+            
+            <div class="col-sm-offset-1 col-sm-5">
+                <img src="img/ipad.png" class="img-responsive">
             </div>
         </div>
+        </div>
     </div>
-    <div class="container section2">  
-    <div class="row"> 
-        <div class="col-sm-4 box3">
-            <img src="img/dog.png" class="section-img">
-        </div>
-        <div class="col-sm-offset-3 col-sm-5 box4">
-             <hr>
-            <h2>3D Device Mockups<br>by PSDCovers</h2>
-            <p>Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a href="#">PSDCovers!</a>
-            Visit their website to download some of their awesome, free photoshop actions for providing the photographs that you see in this template. 
-            Visit their website to become a member.</p> 
-        </div>
+              
+        
+      </section>        
+   <section>
+    <div class="container">
+      <div class="km-img">  
+        <div class="row"> 
+             <div class="col-sm-offset-2 col-sm-5 col-sm-push-5 ">
+                <hr class="km-spacer">
+                <h2 class="km-font">3D Device Mockups<br>by PSDCovers</h2>
+                <br>
+                <p class="km-font1">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a href="#">PSDCovers!</a>
+                Visit their website to download some of their awesome, free photoshop actions for providing the photographs that you see in this template. 
+                Visit their website to become a member.</p> 
+            </div>
+            <div class=" col-sm-5 col-sm-pull-7">
+                <img src="img/dog.png" class="img-responsive">
+            </div>
+            
         </div> 
     </div>
-      
-      <div class="container section">
-        <div class="row">
-            <div class="col-sm-4 box1">
-                <hr>
-                <h2>Death to the Stock Photo:<br>Special Thanks</h2>
-                <p>A special thanks to <a href="#">Death to the Stock Photo</a> for providing the photographs that you see in this template. 
-                    Visit their website to become a member.</p>  
+    </div>
+   
+   </section>
+      <section>
+         <div class="box1">  
+      <div class="container">
+        <div class="km-img"> 
+        <div class="row ">
+            <div class="col-sm-6">
+              <hr class="km-spacer">
+                <h2 class="km-font">Google Web Fonts and<br>Font Awesome Icons</h2>
+                <br>
+                <p class="km-font1" >This template features the 'Lato' font, part of the <a href="#"> Google Web Font library</a> 
+                    ,as well as <a href="#">  icons from Font Awesome</a>
+                   </p>  
             </div>
-            <div class="col-sm-offset-3 col-sm-5 box2">
-                <img src="img/phones.png" class="section-img">
+            <div class="col-sm-offset-1 col-sm-5">
+                <img src="img/phones.png" class="img-responsive">
             </div>
         </div> 
       </div>
+      </div> 
+             <div>
+      </section>   
+      </div>
+     
       
       <div class="container section3">
           <div class="row">
-              <div class="col-sm-6 block">
+              <div class="col-sm-6">
                   <h2>Connect to Start Bootstrap:</h2>
               </div>
-              <div class="col-sm-offset-1 col-sm-5 block1">
-                 <a href="#"> <div class="btn-button fa fa-twitter km-btn" aria-hidden="true">Twitter</div></a>
-                <a href="#"> <div class="btn-git fa fa-github km-btn" aria-hidden="true">Github</div></a>
-                <a href="#"> <div class="btn-link fa fa-linkedin km-btn" aria-hidden="true">Linkedin</div></a>   
-             </div>
+              <div class="col-sm-6 social-btn">
+             <div class="btn-group btn-group-lg" role="group" aria-label="...">
+            <button type="button" class="btn btn-default fa fa-twitter" aria-hidden="true">TTWITTER</button>
+            <button type="button" class="btn btn-default fa fa-github" aria-hidden="true">GITHUB</button>
+            <button type="button" class="btn btn-default fa fa-linkedin" aria-hidden="true">LINKDIN</button>
+             </div>           
+              </div>
           </div>
       </div>
-            <div class="footer menu">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
-                <p class="copyright text-muted small">Copyright © Your Company 2014. All Rights Reserved</p>
-            </div>
+            <footer>
+                <div class="km-box">
+                <div class="container">
+                    <ul class="list-inline ">     
+                        <li> <a href="#">Home</a></li>
+                        <li class="footer-menu-divider">.</li>
+                        <li> <a href="#">About</a></li>
+                          <li class="footer-menu-divider">.</li>
+                        <li><a href="#">Services</a></li>
+                          <li class="footer-menu-divider">.</li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright © Your Company 2014. All Rights Reserved</p>
+                </div>
+                </div>
+            </footer>
       
       
 
